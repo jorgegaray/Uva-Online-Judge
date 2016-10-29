@@ -1,12 +1,16 @@
+/***
+Feynman 12149
+cuadrado 1 = 1*1
+         2 = 1*1 + 2*2
+	 3 = 1*1 + 2*2 + 3*3
+	 4 = 1*1 + 2*2 + 3*3 + 4*4
+	 .....
+****/
 #include <bits/stdc++.h>
 using namespace std;
 
 int main(){
-
-	map <double,int> mp;
-	string st;
-	int i,m;
-	int n,l,c;
+	int i, n;
 	vector <int> v(101);
 	for(i=0;i<101;i++){
 		v[i]=i*i;
